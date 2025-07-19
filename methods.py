@@ -40,7 +40,7 @@ print(ip)"""
 ip.pop(1) 
 # #it will remove only first match of the argument and doesn't returns anything
 print(ip)"""
-#shallow copy and deep copy.
+"""#shallow copy and deep copy.
 import copy
 ip1=[[1,2],[5,6]]
 ip2=ip1.copy()
@@ -53,3 +53,4 @@ ip2=copy.deepcopy(ip1)
 ip2[0][1]="bye"
 
 print(ip1,ip2)
+"""
