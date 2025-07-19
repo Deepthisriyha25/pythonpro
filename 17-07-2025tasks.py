@@ -1,3 +1,35 @@
+
+#nearst prime number
+n=8
+is_prime = True
+for i in range(2, n):
+    if n % i == 0:
+        is_prime = False
+        break
+
+if is_prime:
+    print(n)
+else:
+    a = n - 1
+    b = n + 1
+
+    is_a_prime = True
+    for j in range(2, a):
+        if a % j == 0:
+            is_a_prime = False
+            break
+        if is_a_prime:
+            print(a)
+        break
+
+    is_b_prime = True
+    for k in range(2, b):
+        if b % k == 0:
+            is_b_prime = False
+            break
+        if is_b_prime:
+            print(b)
+            break
 # Reverse a Number
 # Input: 1234 → Output: 4321
 n=1234
@@ -132,11 +164,46 @@ print(numbers[1])
 
 # Check if a Year is a Leap Year
 # ➤ Input: 2020 → Output: True  in easy
-year = 2020
-if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-    print(True)
+# year = 2020
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print(True)
+# else:
+#     print(False)
+
+
+#nearst prime number
+n=8
+is_prime = True
+for i in range(2, n):
+    if n % i == 0:
+        is_prime = False
+        break
+
+if is_prime:
+    print(n)
 else:
-    print(False)
+    a = n - 1
+    b = n + 1
+
+    is_a_prime = True
+    for j in range(2, a):
+        if a % j == 0:
+            is_a_prime = False
+            break
+        if is_a_prime:
+            print(a)
+        break
+
+    is_b_prime = True
+    for k in range(2, b):
+        if b % k == 0:
+            is_b_prime = False
+            break
+        if is_b_prime:
+            print(b)
+            break
+
+
 
 
 
