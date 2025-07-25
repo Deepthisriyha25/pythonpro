@@ -131,31 +131,154 @@
 #             a -= 1
 #             b += 1
 
-for n in range(1,11):
-    x=n+1
-    i=1
-    is_square = False
-    while i * i <= x:
-        if i * i == x:
-            is_square = True
-            break
-        i += 1
-    if is_square:
-        print(n)
+# for n in range(1,11):
+#     x=n+1
+#     i=1
+#     is_square = False
+#     while i * i <= x:
+#         if i * i == x:
+#             is_square = True
+#             break
+#         i += 1
+#     if is_square:
+#         print(n)
 
-for i in range(1,6):
-    print(i*i)
+# for i in range(1,6):
+#     print(i*i)
 
-count = 0
-num=1
-while count < 5:
-    sum = 0
-    for j in range(1,num):
-        if num % j ==0:
-            sum += j
-    if sum == num:
-        print(num)
-        count += 1
-    num += 1
+# count = 0
+# num=1
+# while count < 5:
+#     sum = 0
+#     for j in range(1,num):
+#         if num % j ==0:
+#             sum += j
+#     if sum == num:
+#         print(num)
+#         count += 1
+#     num += 1
+
+# for i in range(1,11):
+#     print(i)
+
+# for i in range(1, 21):
+#     if i % 2 == 0:
+#         print("Even")
+#     else:
+#         print("Odd")
+
+# for i in range(5):
+#     if i >= 0:
+#         print("ps")
+#     else:
+#         print("Neg")
+
+# str="deepthisriyha"
+# for i in str:
+#     if i in "aeiouAEIOU":
+#         print(i)
+
+# list1 = [1, 4, 7, 10, 13, 16]
+# count = 0
+# for i in list1:
+#     if i % 2 ==0:
+#         count += 1
+# print(count)
+    
+# for i in range(1,51):
+#     if i %3== 0:
+#         print(i)
+
+# for i in range(1,31):
+#     if i % 5== 0:
+#         print("Divisible by 5")
+#     else:
+#         print(i)
+
+# for i in range(1,11):
+#     print(i*i)
+
+# n = int(input("Enter a number: "))
+# for i in range(1, n + 1):
+#     print(i * i)
+
+# n=input("enyer a str:")
+# if n[0] in "aeiouAEIOU":
+#     print("Starts with vowels")
+# else:
+#     print("Consonants")
+
+# for i in range(1, 51):
+#     if i % 3 == 0 and i % 5 == 0:
+#         print("FizzBuzz")
+#     elif i % 3 == 0:
+#         print("Fizz")
+#     elif i % 5 == 0:
+#         print("Buzz")
+#     else:
+#         print(i)
+
+# marks = int(input("Enter marks: "))
+# for i in range(5):
+    
+#     if marks >= 90:
+#         print("Grade: A")
+#     elif marks >= 70:
+#         print("Grade: B")
+#     elif marks >= 50:
+#         print("Grade: C")
+#     else:
+#         print("Grade: Fail")
+
+# str1=input("Enter:")
+# v=0
+# c=0
+# d=0
+# s=0
+# for i in str1:
+#     if i.lower() in "aeiou":
+#         v += 1
+#     elif i.isalpha():
+#         c += 1
+#     elif i.isdigit():
+#         d+=1
+#     elif i.isspace():
+#         s+= 1
+# print(v)
+# print(c)
+# print(d)
+# print(s)
+
+# for i in range(1,101):
+#     if i > 1:
+#         for n in range(2,i):
+#             if i%n == 0:
+#                 break
+#         else:
+#             print(i)
+
+# lis1=["icdfeera","uidgdrlky","erdderhdc","aojdgg"]
+# for i in lis1:
+#     if i[0] in "aeiouAEIOU" and len(i) > 4:
+#         print(i)
+
+# n=6
+# sum=0
+# for i in range(1,6):
+#     if n%i == 0:
+#         sum+=i
+# if n == sum :
+#     print("Perfect")
+# else:
+#     print("NOT")
+
+name=input('enter the name: ')
+if name[0] in 'aeiou':
+    print("starts with vowel")
+else:
+    print("starts with consonant")
+
+
+
 
 

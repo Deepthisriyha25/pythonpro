@@ -16,11 +16,16 @@ print(nested[2][2][1])"""
 """template = "Hello {user}, your booking in {location} is confirmed for {days} days."
 print(template.format (user="Ananya", location="Goa",days=3 ))"""
 
-import copy
-list2 = [[1, 2], [3, 4]]
-shallow = copy.copy(list2)
-deep = copy.deepcopy(list2)
-list2[0][0] = 999
-print("list:", list2)
-print("Shallow Copy:", shallow)
-print("Deep Copy:", deep)
+# import copy
+# list2 = [[1, 2], [3, 4]]
+# shallow = copy.copy(list2)
+# deep = copy.deepcopy(list2)
+# list2[0][0] = 999
+# print("list:", list2)
+# print("Shallow Copy:", shallow)
+# print("Deep Copy:", deep)
+
+
+
+
+    
