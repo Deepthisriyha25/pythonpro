@@ -272,12 +272,25 @@
 # else:
 #     print("NOT")
 
-name=input('enter the name: ')
-if name[0] in 'aeiou':
-    print("starts with vowel")
-else:
-    print("starts with consonant")
+# name=input('enter the name: ')
+# if name[0] in 'aeiou':
+#     print("starts with vowel")
+# else:
+#     print("starts with consonant")
 
+# s1 = "education"
+# d = {} 
+# sum=0 
+# for i in s1:
+#     if i in "aeiouAEIOU":
+#         if i.lower() in d:
+#             d[i.lower()] += 1
+#         else:
+#             d[i.lower()] = 1
+# for i in d:
+#     print(i, ":", d[i])
+#     sum += 1
+# print("Total vowels:",sum)
 
 
 
